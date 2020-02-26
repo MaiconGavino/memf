@@ -1,0 +1,236 @@
+body {
+  min-width: 980px !important;
+  width: 100% !important;
+  overflow: visible;
+  overflow-x: hidden;
+}
+
+/* ==========================================================================
+	$Barra superior
+========================================================================== */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.menu-principal {
+  background-color: #313233;
+  padding: 1px 0;
+  margin-bottom: 10px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.menuTopo {
+  list-style-type: none;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.facul {
+  content: "\f19c";
+}
+a { 
+  color: inherit;
+  text-decoration:none
+ } 
+
+/* ==========================================================================
+	$Menu 
+========================================================================== */
+.header-2 {
+  background-color: white;
+  width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.menu-urls {
+  border-bottom: 3px solid #efefef;
+  height: 80px;
+}
+.menu ul li {
+  display: inline-block;
+  color: #b5b5b5;
+  margin-left: 15px;
+  height: 50px;
+}
+.menu ul li:hover {
+  border-bottom: 2px solid #00bac6;
+}
+.menu ul li a:hover {
+  color: #00bac6;
+}
+.menu ul li a {
+  color: rgb(141, 140, 140);
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.menu {
+  width: 80%;
+  float: left;
+}
+
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.logo {
+  float: left;
+  padding: 2px;
+}
+
+/* ==========================================================================
+	$Slides
+========================================================================== */
+.slides {
+  width: 75%;
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+}
+.slick-initialized {
+  overflow: hidden;
+}
+.slick-dots li button {
+  font-size: 0px;
+  border: 3px solid #ffffff;
+  height: 16px;
+  background: transparent;
+  border-radius: 80%;
+  cursor: pointer;
+}
+.slick-dots li {
+  display: inline-block;
+  padding: 3px;
+}
+.slick-dots {
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 93%;
+}
+button.slick-prev {
+  font-size: 0px;
+  border: none;
+  height: 51px;
+  width: 25px;
+  z-index: 9;
+  background-color: transparent;
+  position: absolute;
+  background-image: url("../img/passar.png");
+  top: 35%;
+  left: 15%;
+}
+button.slick-next {
+  font-size: 0px;
+  border: none;
+  height: 51px;
+  width: 25px;
+  z-index: 9;
+  background-color: transparent;
+  position: absolute;
+  background-image: url("../img/voltar.png");
+  top: 35%;
+  right: 15%;
+}
+
+/* ==========================================================================
+	$Sobre o grupo
+========================================================================== */
+.texto {
+  margin: auto;
+  width: 75%;
+  text-align: justify;
+}
+/* ==========================================================================
+	$Foldem
+========================================================================== */
+.footer {
+  background-color: #d1d1d1;
+  display: inline;
+  text-align: center;
+  font-size: 11pt;
+  font-family: Verdana;
+  float: left;
+  padding: 1px 0;
+  width: 100%;
+}
+.logotipo {
+  width: 100%;
+  text-align: center;
+  font-size: 0.3em;
+}
+.logotipo img {
+  width: 20%;
+  vertical-align: middle;
+}
+.redes {
+  width: 100%;
+  text-align: center;
+}
+.redes img {
+  width: 18%;
+}
+.redes ul li {
+  text-transform: uppercase;
+  list-style-type: none;
+  display: inline;
+}
+@media only screen and (min-width: 769px) {
+  .logotipo {
+    font-size: 2em;
+    padding: 25px;
+    width: 45%;
+    float: left;
+    text-align: center;
+  }
+  .logotipo img {
+    width: 15%;
+  }
+  .redes img {
+    width: 10%;
+  }
+  .redes {
+    width: 45%;
+    padding: 30px;
+    float: right;
+    margin-right: 1%;
+    text-align: center;
+  }
+}
+
+/* ==========================================================================
+	$Membros
+========================================================================== */
+.membro {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+  justify-content: center;
+}
+.memb {
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+}
+.pessoa {
+  margin: 0 0 0.75em 0;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titulo {
+  text-align: center;
+}
